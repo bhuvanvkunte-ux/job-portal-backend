@@ -33,7 +33,7 @@ import java.util.List;
         name = "User APIs",
         description = "User Registration, Login and Profile Operations"
 )
-@CrossOrigin(origins = "http://localhost:5173")
+
 @RestController
 @RequestMapping("/users")
 public class UserController {
